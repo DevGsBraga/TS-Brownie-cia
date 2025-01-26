@@ -1,0 +1,14 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); /*FONTE PRINCIPAL DE NAVEGAÇÃO */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap'); /*FONTE PRINCIPAL */
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+

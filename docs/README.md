@@ -1,4 +1,4 @@
-# Loja de Brownie
+# Loja de Brownie (EM DESENVOLVIMENTO)
 
 ## Ts Brownie & cia
 
