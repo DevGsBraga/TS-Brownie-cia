@@ -1,0 +1,38 @@
+.navbar {
+    width: 59vw;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* background-color: aliceblue; */
+
+}
+
+
+.navbar >ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: "Lobster", serif;
+    color: white;
+}
+
+.active {
+    border-top: 2px solid #f1b6b6;
+    border-bottom: 2px solid #f1b6b6;
+    padding: 3px;
+}
+
+
+.logo-container >img {
+    width: 144px;
+}
+
+
