@@ -1,0 +1,71 @@
+
+/* ESTILIZA O CONTAINER PRINCIPAL QUE ENVOLVE TODA A SEÇÃO */
+.content-container-principal {
+    width: 100vw;
+    height: 74vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+/* ESTILIZA O SEGUNDO CONTAINER ONDE ESTÁ O CONTEÚDO */
+.content-container-secundario {
+    max-width: 69vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* ESTILIZA O CONTAINER DOS TEXTOS */
+.content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.content-text >h1 {
+    font-family: var(--font-principal);
+    font-size: 4em;
+}
+
+
+.content-text >span, p {
+    font-family: "Lora", serif;
+    font-size: .9em;
+    font-weight: 500;
+    opacity: .7;;
+}
+
+
+/* ESTILIZA O BOTÃO DA SEÇÃO DOS TEXTOS */
+.content-text >button {
+    width: 30%;
+    padding: .5rem;
+    border: none;
+    font-weight: bold;
+    background-color: var(--cor-principal);
+    transition: all .2s ease-in-out ;
+}
+
+.content-text >button:hover {
+    background-color: #f1b064;
+    transform: scale(1.2);
+}
+
+
+
+
+
+/* ESTILIZA A IMAGEM */
+.content-img >img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}

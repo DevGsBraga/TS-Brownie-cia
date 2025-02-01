@@ -1,7 +1,12 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); /*FONTE PRINCIPAL DE NAVEGAÇÃO */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap'); /*FONTE PRINCIPAL */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+:root {
+    --font-principal: "Lobster", serif;
+    --cor-principal: #D1AB7F;
+}
 
 
 
@@ -11,4 +16,8 @@
     padding: 0;
 }
 
+
+html {
+    overflow-x: hidden;
+}
 

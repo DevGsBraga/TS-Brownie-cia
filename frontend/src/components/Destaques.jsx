@@ -10,8 +10,8 @@ const Destaques = () => {
     <section id='principal-container-destaques'>
 
                 <div className='container-text'>
-                        <h4> Mais pedidos!</h4>
-                        <span>Aproveite essa delicias</span>
+                        <h1> Mais pedidos!</h1>
+                        <span>Aproveite essas delicias</span>
                 </div>
 
                         <div className='container-carrousel'>
@@ -22,7 +22,7 @@ const Destaques = () => {
 
 
                                 <div className="container-button">
-                                    <button> Saiba mais</button>
+                                    <button className='button-pedidos'> Saiba mais</button>
                                 </div>
     </section>
 

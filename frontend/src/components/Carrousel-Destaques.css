@@ -1,23 +1,38 @@
-.slider-container {
-    width: 80%; /* Tamanho mais amplo */
-    margin: 0 auto; /* Centralizar o container */
-    padding: 20px;
-  }
+/* Estilos básicos do carrossel */
+.carrousel {
+  width: 100vw;
+  cursor: grab;
+  padding: 30px 0;
 
-  .sliders {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+}
 
-  .sliders img {
-    width: 100%; /* Ajuste automático à largura do slide */
-    height: auto; /* Manter proporção */
-    max-width: 230px; /* Tamanho máximo */
-  }
+/* Container das imagens */
+.carrousel-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 
-  .sliders h3 {
-    text-align: center;
-    margin-top: 10px;
-  }
+}
+
+
+.carrousel-img-slider{
+  min-width: 300px;
+  max-width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.carrousel-img-slider img{
+  width: 100%;
+}
+
+/* Adiciona estado de clique no carrossel */
+.carrousel:active {
+  cursor: grabbing;
+}
+
