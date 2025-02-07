@@ -1,14 +1,29 @@
+.principal-container-navbar {
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+
+
+
+/* ESTILIZA O CONTAINER DA BARRA DE NAVEGAÇÃO */
 .navbar {
-    width: 59vw;
+    width: 100%;
     height: 72px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
-    /* background-color: aliceblue; */
-
+    justify-content: space-around;
 }
 
+.navBar-container  {
+    position: absolute;
+    top: 0;
+}
 
 .navbar >ul {
     display: flex;
@@ -35,4 +50,17 @@
     width: 144px;
 }
 
+
+
+/* ESTILIZA OS ICONES DE MIDIAS */
+
+.media-text {
+    width: 62vw ;
+    display: flex;
+    justify-content: end;
+    color: wheat;
+    gap: .7rem;
+
+
+}
 

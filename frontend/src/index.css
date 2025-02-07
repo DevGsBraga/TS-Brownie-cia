@@ -5,7 +5,9 @@
 
 :root {
     --font-principal: "Lobster", serif;
+    --font-secundary: "Lora", serif;
     --cor-principal: #D1AB7F;
+
 }
 
 
@@ -19,5 +21,6 @@
 
 html {
     overflow-x: hidden;
+    background: #4E342E;
 }
 

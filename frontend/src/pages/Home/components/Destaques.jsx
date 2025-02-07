@@ -1,8 +1,9 @@
+import DestaquesCarrousel from './Destaques-carrousel';
 import './Destaques.css';
 
 // COMPONENTS
 
-import CarrouselDestaques from './Carrousel-Destaques'
+
 
 const Destaques = () => {
   return (
@@ -16,7 +17,7 @@ const Destaques = () => {
 
                         <div className='container-carrousel'>
 
-                            <CarrouselDestaques />
+                            <DestaquesCarrousel />
 
                         </div>
 

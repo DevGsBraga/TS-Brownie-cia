@@ -1,5 +1,5 @@
 import "./Content.css";
-import img1 from "../assets/brownie-destaque.jpg";
+import img1 from "../../../assets/brownie-destaque.jpg";
 
 const Content = () => {
   return (
@@ -19,6 +19,7 @@ const Content = () => {
 
           <button>Ver mais</button>
         </div>
+
 
         <div className="content-img">
           <img src={img1} alt="dsadsa" />

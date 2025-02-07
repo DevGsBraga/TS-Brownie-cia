@@ -1,11 +1,11 @@
 import './Banner-principal.css';
 
 //COMPONENTS
-import NavBar from './NavBar';
+import NavBar from '../../../components/NavBar';
 
 
 // ICONS react
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+
 
 
 
@@ -13,14 +13,6 @@ import { FaInstagram, FaFacebook } from "react-icons/fa";
 const BannerPrincipal = () => {
   return (
     <section id="principal-container">
-
-        <div className="social-media">
-            <div className='media-text'>
-                  <FaInstagram />
-                  <FaFacebook />
-            </div>
-        </div>
-
 
         <div className="navBar-container">
 

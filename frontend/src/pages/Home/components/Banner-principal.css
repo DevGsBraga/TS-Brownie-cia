@@ -1,6 +1,5 @@
 
 #principal-container {
-    position: relative;
     width: 100vw;
     height:100vh;
     display:flex;
@@ -8,35 +7,9 @@
     justify-content: center;
     flex-direction: column;
 
-    background-image: url(../assets/brownie.gif);
+    background-image: url(../../../assets/brownie.gif);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-
-.social-media{
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    padding: .6rem;
-}
-
-.media-text {
-    width: 59vw;
-    display: flex;
-    justify-content: end;
-    color: wheat;
-    gap: .7rem;
-}
-
-
-
-.navBar-container  {
-    position: absolute;
-    top: 2rem;
 }
 
 
