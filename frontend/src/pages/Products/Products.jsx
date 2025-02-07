@@ -1,8 +1,8 @@
 import './Products.css';
 
 // COMPONENTS
-import NavBar from '../../components/NavBar'
-// import BannerProducts from './components/BannerProducts';
+
+import BannerProducts from './components/BannerProducts';
 import ProductList from './components/ProductList';
 
 
@@ -11,8 +11,8 @@ import ProductList from './components/ProductList';
 const Products = () => {
   return (
     <div className='products-container-principal'>
-    <NavBar />
-    {/* <BannerProducts /> */}
+
+    <BannerProducts />
     <ProductList />
 
 

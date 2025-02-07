@@ -1,5 +1,4 @@
 // COMPONENTS
-import NavBar from '../../components/NavBar';
 
 
 
@@ -7,7 +6,7 @@ import NavBar from '../../components/NavBar';
 const Contacts = () => {
   return (
     <div>
-      <NavBar />
+
 
 
       Contacts
