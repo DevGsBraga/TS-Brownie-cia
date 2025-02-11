@@ -2,10 +2,17 @@ import { NavLink } from 'react-router-dom';
 import './NavBar.css'; // Para estilos, se necessário
 
 
+import { FaInstagram, FaFacebook } from "react-icons/fa";
 import logo from '../assets/TS.png';
 
 const NavBar = () => {
   return (
+    <div className="principal-container-navbar">
+            <div className='media-text'>
+                  <FaInstagram />
+                  <FaFacebook />
+            </div>
+
     <nav className="navbar">
       <div className='logo-container'>
         <img src={logo} alt="" />
@@ -30,6 +37,8 @@ const NavBar = () => {
         </li>
       </ul>
     </nav>
+        </div>
+
   );
 };
 

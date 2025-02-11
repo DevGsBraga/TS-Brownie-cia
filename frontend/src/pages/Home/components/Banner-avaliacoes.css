@@ -1,0 +1,43 @@
+.avaliacoes-container-principal {
+    width: 100vw;
+    height: 56vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../../../assets/banner=destaque.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.avaliacoes-carrousel {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.swiper {
+    width: 100%;
+    height: 52vh;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px;
+    padding: 5rem 0;
+    font-family: var(--font-secundary);
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    text-align: center;
+    cursor: grab;
+}
+
+.swiper-slide >p {
+    margin-top: 1rem;
+}
