@@ -1,9 +1,18 @@
-.container-expo-brownies {
-    width: 75%;
+.slider-container {
+    width: 100vw;
+    height: 85vh;
+    overflow: hidden;
+    cursor: grab;
+}
+
+.container-img-slider {
     display: flex;
-    flex-wrap: wrap;
-    grid-template-columns: 2;
-    justify-content: center;
-    padding: 4rem 0;
-    gap: 1rem;;
+
+}
+
+.container-img-slider img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
 }
