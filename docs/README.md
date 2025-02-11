@@ -1,8 +1,12 @@
 # Loja de Brownie (EM DESENVOLVIMENTO)
 
 ## Ts Brownie & cia
+
+#### Home
 <img src="./imgs/home.png" alt="Imagem do projeto" width="400"/>
-<img src="./imgs/products.png" alt="Imagem do projeto" width="485"/>
+
+#### Produtos
+<img src="./imgs/products.png" alt="Imagem do projeto" width="435"/>
 
 
 ### Objetivo.
