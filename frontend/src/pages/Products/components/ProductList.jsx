@@ -1,37 +1,34 @@
 import './ProductList.css';
-import { useEffect, useState } from "react"
-import axios from "axios"
 import CardProducts from './CardProducts';
+import { getProducts } from '../api';
+import { useQuery } from 'react-query';
 
 
 const ProductList = () => {
-    // DEFINO UMA CONST PARA RECEBER OS DADOS E ATUALIZAR CONFORME AS REQUISIÇÕES
-    const [product, setProduct] = useState([]);
-
-    // ADICIONA O EFEITO PARA BUSCAR AS REQUISIÇÕES
-    useEffect(() => {
-        // CONST PARA PEGAR E ARMAZENAR TEMPORARIAMENTE A RESPONSE
-        const getProducts = async () => {
-            try {
-                // CONST PARA RECEBER DE FATO A RESPONSE
-                const response = await axios.get('http://localhost:3000/api/products');
-
-
-                // ATUALIZA O ESTADO COM OS DADOS RECEBIDOS
-                setProduct(response.data.data);
-                console.log(response.data.data);
-            } catch (error) {
-                console.error(error);
-            }
-        };
-
-        getProducts();
-    }, [])
-
-
-  return (
+     
+/**
+ * Utiliza o react-query para buscar dados de produtos.
+ * 
+ * O react-query é uma biblioteca para gerenciamento de estado assíncrono em aplicações React,
+ * facilitando a busca, cache e sincronização de dados remotos.
+ * 
+ * @param {string} 'products' - Chave da query para identificar a busca.
+ * @param {function} getProduct - Função que realiza a busca dos dados dos produtos.
+ * @param {object} options - Opções adicionais para a query.
+ * @param {function} options.onerror - Função de callback para tratar erros durante a busca.
+ * 
+ * @returns {object} product - Dados dos produtos.
+ * @returns {boolean} isLoading - Indicador de carregamento dos dados.
+ */
+   const { data: product, isLoading, isSuccess } = useQuery('products', getProducts, {onerror: error => console.log(error)});
+  
+   if (isLoading) {
+    // Aqui pode ser colocado um componente de loading no estio skeleton para ficar mais amigável ao usuário
+    return <p>Carregando produtos...</p>;
+   }
+   return (
     <div className="container-products">
-        {product.length > 0 ? (
+        {isSuccess && product.length > 0 ? (
             product.map((item) => (
                 <CardProducts
                 key={item.id}
