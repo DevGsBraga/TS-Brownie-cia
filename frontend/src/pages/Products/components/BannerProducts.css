@@ -1,0 +1,18 @@
+.slider-container {
+    width: 100vw;
+    height: 85vh;
+    overflow: hidden;
+    cursor: grab;
+}
+
+.container-img-slider {
+    display: flex;
+
+}
+
+.container-img-slider img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}

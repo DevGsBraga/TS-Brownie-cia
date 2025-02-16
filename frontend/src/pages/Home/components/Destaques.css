@@ -1,0 +1,43 @@
+
+
+#principal-container-destaques {
+    width: 100vw;
+    height: 74vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #8D6E63;
+}
+
+.container-text  {
+    text-align: center;
+    color: white;
+}
+
+
+
+.container-text >h1 {
+    font-family: "Lobster", serif;
+    font-size: 2.5em;
+}
+
+
+/* ESTILIZAÇÃO BOTÃO DE MAIS PEDIDOS */
+
+.button-pedidos {
+    width: 10em;
+    border: none;
+    padding: .5rem;
+    font-weight: bold;
+    font-family: "Lobster", serif;
+    background-color: var(--cor-principal);
+    cursor: pointer;
+    transition: all .2s ease-in-out ;
+}
+
+.button-pedidos:hover {
+    background-color: #f1b064;
+    transform: scale(1.2);
+}

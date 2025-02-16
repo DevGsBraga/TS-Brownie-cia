@@ -2,6 +2,13 @@
 
 ## Ts Brownie & cia
 
+#### Home
+<img src="./imgs/home.png" alt="Imagem do projeto" width="400"/>
+
+#### Produtos
+<img src="./imgs/products.png" alt="Imagem do projeto" width="435"/>
+
+
 ### Objetivo.
  - O objetivo desse projeto consiste em desenvolver uma loja virtual especializada na venda de brownies, onde os clientes poderão explorar um catálogo de produtos e personalizar suas compras, escolhendo entre diferentes opções de brownies e acompanhamentos disponíveis. A plataforma visa proporcionar uma experiência de compra simples e intuitiva, com foco em conveniência e personalização.
 
